@@ -2,8 +2,8 @@
 :root {
     --pfl-navy: #052383;
     --pfl-navy-deep: #030f3d;
-    --pfl-red: #1ab0e6;
-    --pfl-red-deep: #0079ad;
+    --pfl-red: #ffffff;
+    --pfl-red-deep: rgba(255,255,255,0.82);
     --pfl-grey: #4d4d4d;
     --pfl-white: #ffffff;
     --pfl-bg: #06091a;
@@ -915,7 +915,7 @@ html, body {
     animation: watchCtaPulse 2.2s ease-in-out infinite;
     transition: transform 200ms ease, background 200ms ease;
 }
-.wb-led-cta:hover { transform: scale(1.05); background: #19b0e8; }
+.wb-led-cta:hover { transform: scale(1.05); background: #8dde09; }
 .wb-led-cta svg { flex-shrink: 0; }
 
 /* Slide 11 — LED wristband activation bullets */
@@ -1039,7 +1039,7 @@ html, body {
     transition: transform 180ms ease, background 180ms ease;
     align-self: flex-start;
 }
-.sbia-btn:hover { transform: scale(1.05); background: #19b0e8; }
+.sbia-btn:hover { transform: scale(1.05); background: #8dde09; }
 .sbia-btn svg { flex-shrink: 0; }
 
 /* See Brand in Action — centred over the broadcast video */
@@ -1216,7 +1216,7 @@ html, body {
     align-items: center;
     gap: 0.45em;
     padding: 0.35em 0.7em 0.35em 0.55em;
-    background: #0a86c0;
+    background: #69a507;
     color: #fff;
     font: 700 clamp(11px, 1.1vw, 18px)/1 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
     letter-spacing: 0.12em;
@@ -1777,7 +1777,7 @@ html, body {
     align-items: center;
     gap: 6px;
     padding: 5px 10px 5px 8px;
-    background: #0a86c0;
+    background: #69a507;
     color: #fff;
     font-family: var(--font-display);
     font-weight: 700;
@@ -2513,7 +2513,7 @@ html, body {
 .rt-flag-deco div { flex: 1; }
 .rt-flag-deco .w { background: #fff; }
 .rt-flag-deco .b { background: #0033a0; }
-.rt-flag-deco .r { background: #0a86c0; }
+.rt-flag-deco .r { background: #69a507; }
 
 .rt-events-hint {
     margin-top: 50px;
@@ -2581,7 +2581,7 @@ html, body {
     background-image: linear-gradient(180deg,
         #ffffff 0%, #ffffff 33.33%,
         #0033a0 33.33%, #0033a0 66.66%,
-        #0a86c0 66.66%, #0a86c0 100%);
+        #69a507 66.66%, #69a507 100%);
 }
 .event-card::before {
     content: "";
@@ -4122,11 +4122,11 @@ body.terms-modal-open { overflow: hidden; }
     .dist-modal .dist-metric-context { color: #555 !important; }
 
     .dist-modal .dist-metrics-trajectory .dist-metric-peak {
-        background: #f0faff !important;
-        border-color: #0079ad !important;
-        border-left-color: #0079ad !important;
+        background: #f6f8fa !important;
+        border-color: #477004 !important;
+        border-left-color: #477004 !important;
     }
-    .dist-modal .dist-metrics-trajectory .dist-metric-peak .dist-metric-unit { color: #0079ad !important; }
+    .dist-modal .dist-metrics-trajectory .dist-metric-peak .dist-metric-unit { color: #477004 !important; }
 
     .dist-modal .dist-channel {
         background: #fafafa !important;
@@ -4134,7 +4134,7 @@ body.terms-modal-open { overflow: hidden; }
         page-break-inside: avoid;
     }
     .dist-modal .dist-channel-tag {
-        background: #e3f4fb !important;
+        background: #f1f3f5 !important;
         border-color: #69a507 !important;
         color: #477004 !important;
     }
@@ -4148,7 +4148,7 @@ body.terms-modal-open { overflow: hidden; }
         page-break-inside: avoid;
     }
     .dist-modal .dist-asset-icon {
-        background: #e3f4fb !important;
+        background: #f1f3f5 !important;
         border-color: #69a507 !important;
         color: #69a507 !important;
     }
@@ -4304,7 +4304,7 @@ body.terms-modal-open { overflow: hidden; }
 .video-embed-label.cutin-watch-cta svg { flex-shrink: 0; }
 .video-embed-trigger:hover .cutin-watch-cta {
     transform: translateX(-50%) scale(1.05);
-    background: #19b0e8;
+    background: #8dde09;
 }
 @keyframes watchCtaPulse {
     0%, 100% { box-shadow: 0 12px 34px rgba(0, 177, 64,0.45), 0 0 0 0 rgba(0, 177, 64,0.5); }
