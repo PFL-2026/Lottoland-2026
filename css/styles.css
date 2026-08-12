@@ -4708,3 +4708,31 @@ body.terms-modal-open { overflow: hidden; }
     background: #8dde09;
     color: #05070f;
 }
+/* Slide 8 (Branded Social Series): show each creative IN FULL — the images are
+   near-square, so drop the forced 1.3 crop and contain them at full height. */
+.ig-series-pair {
+    gap: 18px;
+    padding: 20px;
+}
+.ig-series-pair img {
+    width: auto;
+    aspect-ratio: auto;
+    height: 100%;
+    max-height: 100%;
+    max-width: calc(50% - 9px);
+    object-fit: contain;
+}
+/* Slide 5: only ONE ambassador now — centre the hero portrait and name card
+   instead of anchoring a left/right pair. */
+.amb-heroes { justify-content: center; }
+.amb-hero.amb-hero-left {
+    left: 50%;
+    transform: translateX(-50%);
+    right: auto;
+}
+.amb-cards { justify-content: center; }
+.amb-name.amb-name-left {
+    left: 50%;
+    transform: translateX(-50%);
+    right: auto;
+}
