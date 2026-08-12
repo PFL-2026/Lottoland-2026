@@ -4683,6 +4683,8 @@ body.terms-modal-open { overflow: hidden; }
     background: #69a507 !important;
     color: #05070f !important;
 }
+/* Slide 2: make the three box TITLES green (the "PILLAR 0X" label stays white) */
+.pillar-title { color: #69a507; }
 
 /* Lottoland: two broadcast partners side-by-side */
 .broadcast-on-logos:has(.bcast-espn-box) {
