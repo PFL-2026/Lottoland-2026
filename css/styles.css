@@ -4678,6 +4678,12 @@ body.terms-modal-open { overflow: hidden; }
     to   { opacity: 1; }
 }
 
+/* Slide 13 hospitality perk badges — green so the icons are visible */
+.hosp-perk .ic {
+    background: #69a507 !important;
+    color: #05070f !important;
+}
+
 /* Lottoland: two broadcast partners side-by-side */
 .broadcast-on-logos:has(.bcast-espn-box) {
     grid-template-columns: 1fr 1fr;
