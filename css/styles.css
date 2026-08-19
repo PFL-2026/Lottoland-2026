@@ -11,9 +11,9 @@
 
     /* Lottoland blue — replaces the former Lottoland blue scheme.
        Variable names kept as --ls-* so all existing references update at once. */
-    --ls-green: #69a507;
-    --ls-green-deep: #477004;
-    --ls-green-bright: #8dde09;
+    --ls-green: #4ffe85;
+    --ls-green-deep: #309d52;
+    --ls-green-bright: #55f58f;
 
     --font-display: 'Oswald', 'Impact', 'Arial Narrow', sans-serif;
     --font-body: 'Barlow', 'Helvetica Neue', sans-serif;
@@ -909,13 +909,13 @@ html, body {
     cursor: pointer;
     border: 0;
     padding: 18px 40px;
-    background: #69a507;
+    background: #4ffe85;
     border-radius: 999px;
     box-shadow: 0 12px 32px rgba(0, 177, 64,0.45), 0 0 0 0 rgba(0, 177, 64,0.55);
     animation: watchCtaPulse 2.2s ease-in-out infinite;
     transition: transform 200ms ease, background 200ms ease;
 }
-.wb-led-cta:hover { transform: scale(1.05); background: #8dde09; }
+.wb-led-cta:hover { transform: scale(1.05); background: #55f58f; }
 .wb-led-cta svg { flex-shrink: 0; }
 
 /* Slide 11 — LED wristband activation bullets */
@@ -941,7 +941,7 @@ html, body {
     width: 20px;
     height: 20px;
     margin-top: 2px;
-    color: #69a507;
+    color: #4ffe85;
     filter: drop-shadow(0 0 7px rgba(0, 177, 64,0.6));
 }
 .wb-acts li strong { color: #fff; font-weight: 700; }
@@ -1033,13 +1033,13 @@ html, body {
     letter-spacing: 0.16em;
     text-transform: uppercase;
     color: #fff;
-    background: var(--cs-blue, #69a507);
+    background: var(--cs-blue, #4ffe85);
     box-shadow: 0 10px 28px rgba(0, 177, 64,0.45), 0 0 0 0 rgba(0, 177, 64,0.45);
     animation: watchCtaPulse 2.4s ease-in-out infinite;
     transition: transform 180ms ease, background 180ms ease;
     align-self: flex-start;
 }
-.sbia-btn:hover { transform: scale(1.05); background: #8dde09; }
+.sbia-btn:hover { transform: scale(1.05); background: #55f58f; }
 .sbia-btn svg { flex-shrink: 0; }
 
 /* See Brand in Action — centred over the broadcast video */
@@ -1216,7 +1216,7 @@ html, body {
     align-items: center;
     gap: 0.45em;
     padding: 0.35em 0.7em 0.35em 0.55em;
-    background: #69a507;
+    background: #4ffe85;
     color: #fff;
     font: 700 clamp(11px, 1.1vw, 18px)/1 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
     letter-spacing: 0.12em;
@@ -1777,7 +1777,7 @@ html, body {
     align-items: center;
     gap: 6px;
     padding: 5px 10px 5px 8px;
-    background: #69a507;
+    background: #4ffe85;
     color: #fff;
     font-family: var(--font-display);
     font-weight: 700;
@@ -2513,7 +2513,7 @@ html, body {
 .rt-flag-deco div { flex: 1; }
 .rt-flag-deco .w { background: #fff; }
 .rt-flag-deco .b { background: #0033a0; }
-.rt-flag-deco .r { background: #69a507; }
+.rt-flag-deco .r { background: #4ffe85; }
 
 .rt-events-hint {
     margin-top: 50px;
@@ -2581,7 +2581,7 @@ html, body {
     background-image: linear-gradient(180deg,
         #ffffff 0%, #ffffff 33.33%,
         #0033a0 33.33%, #0033a0 66.66%,
-        #69a507 66.66%, #69a507 100%);
+        #4ffe85 66.66%, #4ffe85 100%);
 }
 .event-card::before {
     content: "";
@@ -3742,14 +3742,14 @@ body.terms-modal-open { overflow: hidden; }
         text-align: left;
         margin-bottom: 22pt;
         padding-bottom: 14pt;
-        border-bottom: 2pt solid #69a507;
+        border-bottom: 2pt solid #4ffe85;
     }
     .terms-print-eyebrow {
         font-family: "Helvetica", sans-serif;
         font-size: 8pt;
         letter-spacing: 0.32em;
         text-transform: uppercase;
-        color: #69a507;
+        color: #4ffe85;
         margin-bottom: 6pt;
     }
     .terms-print-header h1 {
@@ -3783,20 +3783,20 @@ body.terms-modal-open { overflow: hidden; }
     .terms-section-title {
         font-size: 13pt;
         color: #06091a;
-        border-bottom: 0.5pt solid #69a507;
+        border-bottom: 0.5pt solid #4ffe85;
         padding-bottom: 4pt;
         margin: 14pt 0 8pt;
         page-break-after: avoid;
     }
-    .terms-section-title::before { background: #69a507; }
+    .terms-section-title::before { background: #4ffe85; }
 
     .terms-grid { gap: 8pt 18pt; }
     .terms-grid dt {
-        color: #69a507;
+        color: #4ffe85;
         font-size: 8.5pt;
     }
     .terms-grid dd { color: #1a1a1a; }
-    .terms-grid dd ul li::before { color: #69a507; }
+    .terms-grid dd ul li::before { color: #4ffe85; }
     .terms-grid dd strong { color: #06091a; }
 
     .terms-asset {
@@ -3807,14 +3807,14 @@ body.terms-modal-open { overflow: hidden; }
     }
     .terms-asset-num {
         font-size: 18pt;
-        color: #69a507;
+        color: #4ffe85;
     }
     .terms-asset-body h4 {
         font-size: 11pt;
         color: #06091a;
     }
     .terms-asset-sub { color: #666; }
-    .terms-asset-body ul li::before { background: #69a507; }
+    .terms-asset-body ul li::before { background: #4ffe85; }
     .terms-asset-body ul ul li::before { background: #999; }
     .terms-asset-body strong { color: #06091a; }
 
@@ -4111,22 +4111,22 @@ body.terms-modal-open { overflow: hidden; }
 @media print {
     .dist-modal .dist-metric {
         background: #fafafa !important;
-        border: 0.5pt solid #69a507 !important;
-        border-left: 2pt solid #69a507 !important;
+        border: 0.5pt solid #4ffe85 !important;
+        border-left: 2pt solid #4ffe85 !important;
         page-break-inside: avoid;
     }
     .dist-modal .dist-metric::before { display: none; }
     .dist-modal .dist-metric-num { color: #06091a !important; }
-    .dist-modal .dist-metric-unit { color: #69a507 !important; }
+    .dist-modal .dist-metric-unit { color: #4ffe85 !important; }
     .dist-modal .dist-metric-label { color: #1a1a1a !important; }
     .dist-modal .dist-metric-context { color: #555 !important; }
 
     .dist-modal .dist-metrics-trajectory .dist-metric-peak {
         background: #f6f8fa !important;
-        border-color: #477004 !important;
-        border-left-color: #477004 !important;
+        border-color: #309d52 !important;
+        border-left-color: #309d52 !important;
     }
-    .dist-modal .dist-metrics-trajectory .dist-metric-peak .dist-metric-unit { color: #477004 !important; }
+    .dist-modal .dist-metrics-trajectory .dist-metric-peak .dist-metric-unit { color: #309d52 !important; }
 
     .dist-modal .dist-channel {
         background: #fafafa !important;
@@ -4135,12 +4135,12 @@ body.terms-modal-open { overflow: hidden; }
     }
     .dist-modal .dist-channel-tag {
         background: #f1f3f5 !important;
-        border-color: #69a507 !important;
-        color: #477004 !important;
+        border-color: #4ffe85 !important;
+        color: #309d52 !important;
     }
     .dist-modal .dist-channel h4 { color: #06091a !important; }
     .dist-modal .dist-channel ul li { color: #1a1a1a !important; }
-    .dist-modal .dist-channel ul li::before { background: #69a507 !important; }
+    .dist-modal .dist-channel ul li::before { background: #4ffe85 !important; }
 
     .dist-modal .dist-asset {
         background: #fafafa !important;
@@ -4149,8 +4149,8 @@ body.terms-modal-open { overflow: hidden; }
     }
     .dist-modal .dist-asset-icon {
         background: #f1f3f5 !important;
-        border-color: #69a507 !important;
-        color: #69a507 !important;
+        border-color: #4ffe85 !important;
+        color: #4ffe85 !important;
     }
     .dist-modal .dist-asset h4 { color: #06091a !important; }
     .dist-modal .dist-asset p { color: #444 !important; }
@@ -4294,7 +4294,7 @@ body.terms-modal-open { overflow: hidden; }
     letter-spacing: 0.16em;
     color: #fff;
     padding: 18px 38px;
-    background: #69a507;
+    background: #4ffe85;
     border: 0;
     border-radius: 999px;
     box-shadow: 0 12px 34px rgba(0, 177, 64,0.45), 0 0 0 0 rgba(0, 177, 64,0.55);
@@ -4304,7 +4304,7 @@ body.terms-modal-open { overflow: hidden; }
 .video-embed-label.cutin-watch-cta svg { flex-shrink: 0; }
 .video-embed-trigger:hover .cutin-watch-cta {
     transform: translateX(-50%) scale(1.05);
-    background: #8dde09;
+    background: #55f58f;
 }
 @keyframes watchCtaPulse {
     0%, 100% { box-shadow: 0 12px 34px rgba(0, 177, 64,0.45), 0 0 0 0 rgba(0, 177, 64,0.5); }
@@ -4680,11 +4680,11 @@ body.terms-modal-open { overflow: hidden; }
 
 /* Slide 13 hospitality perk badges — green so the icons are visible */
 .hosp-perk .ic {
-    background: #69a507 !important;
+    background: #4ffe85 !important;
     color: #05070f !important;
 }
 /* Slide 2: make the three box TITLES green (the "PILLAR 0X" label stays white) */
-.pillar-title { color: #69a507; }
+.pillar-title { color: #4ffe85; }
 
 /* Lottoland: two broadcast partners side-by-side */
 .broadcast-on-logos:has(.bcast-espn-box) {
@@ -4708,12 +4708,12 @@ body.terms-modal-open { overflow: hidden; }
 /* Commercials nav button — Lottoland green, set apart from the section tabs */
 .section-btn.commercials-btn {
     color: #05070f;
-    background: #69a507;
+    background: #4ffe85;
     font-weight: 700;
     border-radius: 7px;
 }
 .section-btn.commercials-btn:hover {
-    background: #8dde09;
+    background: #55f58f;
     color: #05070f;
 }
 /* Slide 8 (Branded Social Series): show each creative IN FULL — the images are
